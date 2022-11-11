@@ -1,0 +1,67 @@
+.signInContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-width: 380px;
+  border: 3px solid #8D8E97;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding-bottom:10px ;
+}
+
+.signInItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signInText{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.signInInput{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #8D8E97;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+.signInInput:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+.signInButton {
+  border: 2px solid #8D8E97;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-weight: 600;
+  background: var(--background-color);
+  color: var(--color);
+  
+}
+
+.signInButton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.signInButton:focus {
+  background-color: dodgerblue;
+  color: white;
+}
